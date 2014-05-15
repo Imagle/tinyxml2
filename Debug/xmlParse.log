@@ -1,0 +1,27 @@
+﻿生成启动时间为 2014/5/3 16:55:42。
+     1>项目“C:\Users\Ruiqiang\Documents\Visual Studio 2013\Projects\MyPractice\xmlParse\xmlParse.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt XMLTest.cpp
+         XMLTest.cpp
+     1>c:\users\ruiqiang\documents\visual studio 2013\projects\mypractice\xmlparse\xmltest.cpp(304): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ruiqiang\Documents\Visual Studio 2013\Projects\MyPractice\Debug\xmlParse.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ruiqiang\Documents\Visual Studio 2013\Projects\MyPractice\Debug\xmlParse.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ruiqiang\Documents\Visual Studio 2013\Projects\MyPractice\Debug\xmlParse.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\StrPair.obj
+         Debug\XMLAttribute.obj
+         Debug\XMLComment.obj
+         Debug\XMLDeclaration.obj
+         Debug\XMLDocument.obj
+         Debug\XMLElement.obj
+         Debug\XMLNode.obj
+         Debug\XMLPrinter.obj
+         Debug\XMLTest.obj
+         Debug\XMLText.obj
+         Debug\XMLUnknown.obj
+         Debug\XMLUtil.obj
+         xmlParse.vcxproj -> C:\Users\Ruiqiang\Documents\Visual Studio 2013\Projects\MyPractice\Debug\xmlParse.exe
+     1>已完成生成项目“C:\Users\Ruiqiang\Documents\Visual Studio 2013\Projects\MyPractice\xmlParse\xmlParse.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.15

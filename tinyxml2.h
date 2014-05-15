@@ -22,6 +22,8 @@ must not be misrepresented as being the original software.
 distribution.
 */
 
+
+
 #ifndef TINYXML2_INCLUDED
 #define TINYXML2_INCLUDED
 
@@ -120,7 +122,7 @@ static const int TIXML2_MAJOR_VERSION = 1;
 static const int TIXML2_MINOR_VERSION = 0;
 static const int TIXML2_PATCH_VERSION = 14;
 
-namespace tinyxml2
+namespace tinyxml3
 {
 class XMLDocument;
 class XMLElement;
@@ -255,12 +257,12 @@ public:
         return _mem[i];
     }
 
-    const T& PeekTop() const                            {
+    const T& PeekTop() const  {
         TIXMLASSERT( _size > 0 );
         return _mem[ _size - 1];
     }
 
-    int Size() const					{
+    int Size() const {
         return _size;
     }
 
